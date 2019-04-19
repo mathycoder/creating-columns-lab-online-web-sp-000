@@ -48,7 +48,7 @@ img:hover {
 
 /* create a column class! make sure all of the divs within 'container's have a class of 'column' */
 .column {
-  display: grid;
+  display: inline-block;
   width: 32%;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px;
